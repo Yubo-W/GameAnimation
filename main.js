@@ -84,7 +84,7 @@ function Character(game, spritesheet) {
     this.animation = new Animation(spritesheet, 120, 130, 10, 0.15, 10, true, 0.7);
     this.speed = 150;
     this.ctx = game.ctx;
-    Entity.call(this, game, 0, 330);
+    Entity.call(this, game, 0, 321);
 }
 
 Character.prototype = new Entity();
