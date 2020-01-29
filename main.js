@@ -41,7 +41,7 @@ Animation.prototype.drawFrame = function (tick, ctx, x, y) {
         ctx.drawImage(this.spriteSheet,
             xindex * this.frameWidth, 7 * this.frameHeight,  // source from sheet
             this.frameWidth, this.frameHeight,
-            x, y - 80,
+            x, y - 60,
             this.frameWidth * this.scale,
             this.frameHeight * this.scale);
     } else {
